@@ -33,7 +33,7 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://elegant-todolist.netlify.app/"
                   className="text-red-400 hover:text-red-300 transition-colors my-4"
                 >
                   View Project →
@@ -71,7 +71,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://guide-wire-dev-trail.vercel.app/"
                   className="text-red-400 hover:text-red-300 transition-colors my-4"
                 >
                   View Project →
@@ -111,7 +111,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://github.com/abdulfaizaan"
                   className="text-red-400 hover:text-red-300 transition-colors my-4"
                 >
                   View Project →
