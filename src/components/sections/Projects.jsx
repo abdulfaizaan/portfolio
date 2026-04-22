@@ -19,7 +19,7 @@ export const Projects = () => {
                 A elegant todo app built with html, css, and javascript.with a clean and intuitive interface, it allows users to easily manage their tasks and stay organized.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
+                {["HTML","CSS","JAVASCRIPT"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-red-500/10 text-red-500 py-1 px-3 rounded-full text-sm hover:bg-red-500/20 
