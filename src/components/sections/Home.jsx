@@ -44,7 +44,7 @@ export const Home = () => {
               View My Work
             </a>
 
-            <a href="../assets/Abdul_Faizaan_Resume.pdf" download="Abdul_Faizaan_Resume.pdf"
+            <a href="../assets/Abdul_Faizaan.pdf" download="Abdul_Faizaan_Resume.pdf"
               className="border border-cyan-500/50 text-cyan-400 py-3 px-8 rounded-full font-bold transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(34,211,238,0.3)] hover:bg-cyan-500/10"
             >
               Download CV
