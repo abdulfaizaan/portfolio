@@ -7,6 +7,7 @@ import { Portfolio } from "./components/sections/Portfolio";
 import { Education } from "./components/sections/Education";
 import { Languages } from "./components/sections/Languages";
 import { Contact } from "./components/sections/cotact";
+import { Footer } from "./components/sections/Footer";
 
 import "./index.css";
 import "./App.css";
@@ -30,6 +31,7 @@ function App() {
           <Education />
           <Languages />
           <Contact />
+          <Footer />
         </main>
       </div>
     </>
