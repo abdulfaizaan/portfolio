@@ -1,3 +1,7 @@
+# Abdul Faizaan's Portfolio
+
+A modern, interactive portfolio website showcasing projects, skills, and experience. Built with React and Vite for a fast, responsive user experience.
+
 ## Features
 
 - **Modern Design:** Clean, SaaS-inspired design with a glass-effect navbar and sleek animations.
@@ -17,8 +21,8 @@
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-portfolio.git
-   cd your-portfolio
+   git clone https://github.com/abdulfaizaan/portfolio.git
+   cd portfolio
    ```
 
 2. **Install dependencies:**
@@ -52,32 +56,50 @@ npm run preview
 ## Folder Structure
 
 ```
-your-portfolio/
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/
-│   │   ├── Navbar.jsx
-│   │   ├── MobileMenu.jsx
-│   │   ├── LoadingScreen.jsx
-│   │   └── sections/
-│   │       ├── Home.jsx
-│   │       ├── About.jsx
-│   │       ├── Projects.jsx
-│   │       └── Contact.jsx
-│   ├── index.css          # Tailwind base styles and global styles
-│   ├── App.jsx
-│   └── main.jsx
+portfolio/
+├── index.html
 ├── package.json
+├── README.md
 ├── vite.config.js
-└── README.md
+└── src/
+    ├── App.jsx
+    ├── App.css
+    ├── index.css
+    ├── main.jsx
+    ├── assets/
+    ├── components/
+    │   ├── LoadingScreen.jsx
+    │   ├── RevealOnScroll.jsx
+    │   ├── Sidebar.jsx
+    │   └── sections/
+    │       ├── Home.jsx
+    │       ├── Skills.jsx
+    │       ├── Portfolio.jsx
+    │       ├── Education.jsx
+    │       ├── Languages.jsx
+    │       ├── cotact.jsx
+    │       └── Footer.jsx
 ```
 
 ## Customization
 
-- **Tailwind CSS:** Modify the `index.css` file or add custom classes to further tweak the design.
-- **Components:** Edit individual components in the `src/components/` folder to update content or styling.
-- **Sections:** Update content in the `src/components/sections/` directory to showcase your personal projects, about info, and contact details.
+- **Styles:** Modify `src/index.css` and `src/App.css` to customize the design with Tailwind CSS.
+- **Components:** Update components in `src/components/` to add or modify shared UI elements like the Sidebar and LoadingScreen.
+- **Sections:** Edit individual section files in `src/components/sections/` to update:
+  - **Home.jsx** - Hero section with introduction
+  - **Skills.jsx** - Technical skills and proficiencies
+  - **Portfolio.jsx** - Project showcase
+  - **Education.jsx** - Education and certifications
+  - **Languages.jsx** - Programming languages and frameworks
+  - **cotact.jsx** - Contact information and forms
+  - **Footer.jsx** - Footer with social links
+
+## Features Breakdown
+
+- **LoadingScreen:** Animated splash screen on initial load
+- **Sidebar:** Fixed navigation with smooth transitions
+- **RevealOnScroll:** Custom hook for scroll-triggered animations
+- **Responsive Design:** Mobile-first approach with Tailwind CSS breakpoints
 
 ## Contributing
 
