@@ -5,8 +5,6 @@ export const Skills = () => {
     { name: "React", level: 90, icon: "⚛️" },
     { name: "TailwindCSS", level: 85, icon: "🎨" },
     { name: "Node.js", level: 75, icon: "🟩" },
-    { name: "Python", level: 80, icon: "🐍" },
-    { name: "Springboot", level: 50, icon: "🍃" },
   ];
 
   return (
