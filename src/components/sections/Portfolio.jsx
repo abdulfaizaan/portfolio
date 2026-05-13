@@ -5,22 +5,22 @@ export const Portfolio = () => {
     {
       title: "Todo App",
       description: "An elegant todo app built with HTML, CSS, and JavaScript. With a clean and intuitive interface, it allows users to easily manage their tasks and stay organized.",
-      tech: ["React", "Node.js", "AWS", "Docker"],
-      link: "#",
+      tech: ["Vanilla JavaScript"],
+      link: "https://elegant-todolist.netlify.app/",
       image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=2072&auto=format&fit=crop"
     },
     {
       title: "Gig Shield",
       description: "AI/ML-powered Insurance Claim Prediction System for Accurate Risk Assessment and Fraud Detection.",
       tech: ["Python", "Node", "TypeScript"],
-      link: "#",
+      link: "https://guide-wire-dev-trail.vercel.app",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop"
     },
     {
       title: "More Projects",
       description: "Explore a variety of projects showcasing my skills in web development on GitHub.",
       tech: ["Node", "React", "Springboot"],
-      link: "#",
+      link: "https://github.com/abdulfaizaan",
       image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop"
     }
   ];
