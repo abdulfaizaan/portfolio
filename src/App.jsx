@@ -6,6 +6,7 @@ import About from './components/sections/About.jsx'
 import Work from './components/sections/Work.jsx'
 import Skills from './components/sections/Skills.jsx'
 import Education from './components/sections/Education.jsx'
+import Languages from './components/sections/Languages.jsx'
 import ProjectModal from './components/ProjectModal.jsx'
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
         <Work onSelect={(project) => setModal({ open: true, project })} />
         <Skills />
         <Education />
+        <Languages />
       </main>
       <ProjectModal
         project={modal.project}
