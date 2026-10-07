@@ -7,6 +7,7 @@ import Work from './components/sections/Work.jsx'
 import Skills from './components/sections/Skills.jsx'
 import Education from './components/sections/Education.jsx'
 import Languages from './components/sections/Languages.jsx'
+import Contact from './components/sections/Contact.jsx'
 import ProjectModal from './components/ProjectModal.jsx'
 
 export default function App() {
@@ -23,6 +24,7 @@ export default function App() {
         <Skills />
         <Education />
         <Languages />
+        <Contact />
       </main>
       <ProjectModal
         project={modal.project}
