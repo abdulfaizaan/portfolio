@@ -5,6 +5,7 @@ import Hero from './components/sections/Hero.jsx'
 import About from './components/sections/About.jsx'
 import Work from './components/sections/Work.jsx'
 import Skills from './components/sections/Skills.jsx'
+import Education from './components/sections/Education.jsx'
 import ProjectModal from './components/ProjectModal.jsx'
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
         <About />
         <Work onSelect={(project) => setModal({ open: true, project })} />
         <Skills />
+        <Education />
       </main>
       <ProjectModal
         project={modal.project}
