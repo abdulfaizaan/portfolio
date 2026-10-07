@@ -23,8 +23,8 @@ export default function Hero() {
           <div className="lg:w-7/12 lg:order-1 order-2">
             <h1 className="font-bold xl:text-7xl md:text-6xl text-5xl xl:leading-tight md:leading-tight sm:leading-tight leading-tight mb-14">
               Hello, I'm Abdul Faizaan a<br />
-              <span className="text-primary sm:inline hidden">{'{'}</span>
-              <span className="text-slate-400">Web Developer</span>
+              <span className="text-primary sm:inline hidden">{'{'}</span>{' '}
+              <span className="text-slate-400">Web Developer</span>{' '}
               <span className="text-primary sm:inline hidden">{'}'}</span>
             </h1>
             <a href="#work" className="inline-block relative md:text-xl text-lg pb-3 before:content-[''] before:absolute before:w-full before:border-b-2 before:border-white before:left-0 before:bottom-0 after:content-[''] after:absolute after:w-0 after:border-b-2 after:border-primary after:left-0 after:bottom-0 hover:after:w-full after:transition-all after:duration-300 after:ease-out">
