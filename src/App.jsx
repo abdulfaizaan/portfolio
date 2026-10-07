@@ -8,6 +8,7 @@ import Skills from './components/sections/Skills.jsx'
 import Education from './components/sections/Education.jsx'
 import Languages from './components/sections/Languages.jsx'
 import Contact from './components/sections/Contact.jsx'
+import Footer from './components/sections/Footer.jsx'
 import ProjectModal from './components/ProjectModal.jsx'
 
 export default function App() {
@@ -31,6 +32,7 @@ export default function App() {
         open={modal.open}
         onClose={() => setModal((m) => ({ ...m, open: false }))}
       />
+      <Footer />
     </>
   )
 }
