@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-radial-blur {
+  background: rgb(88, 14, 246);
+  background: radial-gradient(circle, rgba(88, 14, 246, 1) 0%, rgba(255, 255, 255, 0) 60%);
+}
+
+.preloader-box-transition::before {
+  transition: width 750ms linear, height 750ms linear 750ms;
+}
+.preloader-box-transition::after {
+  transition: width 750ms linear 1500ms, height 750ms linear 2250ms;
+}
+
+@keyframes vertical-move {
+  0%, 100% { transform: translateY(-1rem); }
+  50% { transform: translateY(1rem); }
+}
+.animate-vertical-move-1 { animation: vertical-move 6s 1s linear infinite; }
+.animate-vertical-move-2 { animation: vertical-move 6s 3s linear infinite; }
+.animate-vertical-move-3 { animation: vertical-move 6s 2s linear infinite; }
+.animate-vertical-move-4 { animation: vertical-move 6s 4s linear infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-vertical-move-1,
+  .animate-vertical-move-2,
+  .animate-vertical-move-3,
+  .animate-vertical-move-4,
+  .animate-spin {
+    animation: none !important;
+  }
+}
